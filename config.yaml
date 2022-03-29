@@ -1,0 +1,10 @@
+# 程序的启动文件
+hosts: "localhost:6379"
+db: 0
+timeout: 30 # 秒
+pool_size: 50
+max_retries: 3
+idle_conns: 20
+idle_time: 3 # 小时
+life_time: 3 # 小时
+db_mod: 1
